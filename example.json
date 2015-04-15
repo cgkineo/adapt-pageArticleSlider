@@ -1,0 +1,7 @@
+//contentObjects.json
+
+"_pageArticleSlider": {
+    "_isEnabled": true,
+    "_animationDuration": 1500,
+    "_isEnabledOnMobile": false
+}

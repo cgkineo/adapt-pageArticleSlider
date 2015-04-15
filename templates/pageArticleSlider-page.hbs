@@ -1,0 +1,32 @@
+{{! Maintainers - Daryl Hedley}}
+{{! .article-container: Adapt will place the pages articles inside this class}}
+<div class="page-inner" role="main" aria-label="{{_globals._accessibility._ariaLabels.page}}">
+    {{! Check if a page title exist and render it}}
+    {{#if displayTitle}}
+    <div class="page-title" role="heading">
+        <div class="page-title-inner h1" tabindex="0" role="heading" aria-level="1">
+            {{{displayTitle}}}
+        </div>
+    </div>
+    {{/if}}
+</div>
+<div class="page-article-toolbar clearfix">
+    <a class="left icon icon-controls-small-left" href="#" data-article-slider="left"></a>
+    <a class="right icon icon-controls-small-right" href="#" data-article-slider="right"></a>
+    <div class="middle item-button-container">
+        {{#each _itemButtons}}
+            <a class="left icon {{this._className}}" href="#" data-article-slider="index" data-article-slider-index="{{this._index}}"><span>{{#if this._includeNumber}}{{this._index}}{{/if}}</span></a>
+        {{/each}}
+    </div>
+    <div class="horizontal-rule"></div>
+</div>
+<div class="page-article-slider clearfix">
+    <div class="article-container clearfix">
+
+    </div>
+</div>
+<div class="page-article-bottombar clearfix">
+    <div class="horizontal-rule"></div>
+</div>
+
+
