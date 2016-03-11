@@ -7,7 +7,7 @@
   ],
   "displayName" : "Page-Article Slider",
   "extension" : "pageArticleSlider",
-  "description": "",
+  "description": "A simple left and right slider for an page's articles",
   "main": "/js/adapt-pageArticleSlider.js",
   "keywords": [
     "adapt-plugin",
