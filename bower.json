@@ -5,8 +5,8 @@
   "authors": [
     "Oliver Foster <oliver.foster@kineo.com>"
   ],
-  "displayName" : "Assessment",
-  "extension" : "assessment",
+  "displayName" : "Page-Article Slider",
+  "extension" : "pageArticleSlider",
   "description": "",
   "main": "/js/adapt-pageArticleSlider.js",
   "keywords": [
